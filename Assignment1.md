@@ -38,7 +38,7 @@
 >else canvas.remind("assignment1 has been created"); 
 
 ##2.A pet adoption platform
-*-Adopter*
+*-presentedAdopter*
 *   Data:Id,Name,Age,Gender,MHI,Ownedpet,emailAddress,Phone,Address
 *   Behavior:login,logout,search,requestAdopt,requestCancle,search
 
@@ -51,10 +51,10 @@
 *   Behavior:checkOut,sendReceipt,refund,sendtoPetnursinghome,sendFailemail,showPetinfo
 
 *-PetNursingHome*
-*   Data:pets,adopters
+*   Data:pets,presentedAdopters
 *   Behavior:contactadopter
 >```java
->Adopter bonnie;
+>presentedAdopter bonnie;
 >PetAdoptionPlatform lovePetApp;
 >PetNursingHome petHome;
 >bonnie.login(id);
